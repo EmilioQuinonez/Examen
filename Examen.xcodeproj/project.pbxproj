@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E55813CC2ED90224006A03C2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E55813CB2ED90224006A03C2 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E54EC08D2ED8C81100EA9D6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,33 +33,9 @@
 		E54EC0962ED8C81100EA9D6F /* ExamenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E587AB132ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Examen" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Presentation/ViewModel/.gitkeep,
-			);
-			target = E54EC07E2ED8C80F00EA9D6F /* Examen */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		E587AB142ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Compile Sources" phase from "Examen" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = E54EC07B2ED8C80F00EA9D6F /* Sources */;
-			membershipExceptions = (
-				Presentation/ViewModel/.gitkeep,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E54EC0812ED8C80F00EA9D6F /* Examen */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E587AB132ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Examen" target */,
-				E587AB142ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Compile Sources" phase from "Examen" target */,
-			);
 			path = Examen;
 			sourceTree = "<group>";
 		};
@@ -76,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55813CC2ED90224006A03C2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +117,7 @@
 			);
 			name = Examen;
 			packageProductDependencies = (
+				E55813CB2ED90224006A03C2 /* Alamofire */,
 			);
 			productName = Examen;
 			productReference = E54EC07F2ED8C80F00EA9D6F /* Examen.app */;
@@ -194,6 +176,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
@@ -219,6 +204,9 @@
 			);
 			mainGroup = E54EC0762ED8C80F00EA9D6F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E55813CA2ED90224006A03C2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E54EC0802ED8C80F00EA9D6F /* Products */;
 			projectDirPath = "";
@@ -594,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E55813CA2ED90224006A03C2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E55813CB2ED90224006A03C2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55813CA2ED90224006A03C2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E54EC0772ED8C80F00EA9D6F /* Project object */;
 }
