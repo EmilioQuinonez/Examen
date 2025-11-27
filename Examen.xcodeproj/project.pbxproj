@@ -29,9 +29,33 @@
 		E54EC0962ED8C81100EA9D6F /* ExamenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E587AB132ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Examen" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Presentation/ViewModel/.gitkeep,
+			);
+			target = E54EC07E2ED8C80F00EA9D6F /* Examen */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E587AB142ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Compile Sources" phase from "Examen" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E54EC07B2ED8C80F00EA9D6F /* Sources */;
+			membershipExceptions = (
+				Presentation/ViewModel/.gitkeep,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E54EC0812ED8C80F00EA9D6F /* Examen */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E587AB132ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Examen" target */,
+				E587AB142ED8DD5A0060C5AB /* Exceptions for "Examen" folder in "Compile Sources" phase from "Examen" target */,
+			);
 			path = Examen;
 			sourceTree = "<group>";
 		};
